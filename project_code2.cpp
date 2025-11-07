@@ -519,19 +519,19 @@ int main() {
         cout << "\n\n=============================================\n";
         cout << "      HOSPITAL MANAGEMENT SYSTEM\n";
         cout << "=============================================\n";
-        cout << "1.  Add Patient (Linked List)\n";
-        cout << "2.  Display All Patients (Linked List)\n";
-        cout << "3.  Search Patient (Linked List)\n";
-        cout << "4.  Delete Patient (Linked List)\n";
-        cout << "5.  Display Doctors (BST)\n";
-        cout << "6.  Search Doctor (BST)\n";
-        cout << "7.  Book Appointment (Hash Table)\n";
-        cout << "8.  Display Appointments by Doctor (Hash)\n";
-        cout << "9.  Process Emergency Patient (Priority Queue)\n";
-        cout << "10. Process OPD Patient (Queue)\n";
-        cout << "11. Add Medical Record (Stack)\n";
-        cout << "12. Display Recent Medical Records (Stack)\n";
-        cout << "13. Display Hospital Layout (Graph)\n";
+        cout << "1.  Add Patient\n";
+        cout << "2.  Display All Patients\n";
+        cout << "3.  Search Patient\n";
+        cout << "4.  Delete Patient\n";
+        cout << "5.  Display Doctors\n";
+        cout << "6.  Search Doctor\n";
+        cout << "7.  Book Appointment\n";
+        cout << "8.  Display Appointments by Doctor\n";
+        cout << "9.  Process Emergency Patient\n";
+        cout << "10. Process OPD Patient\n";
+        cout << "11. Add Medical Record\n";
+        cout << "12. Display Recent Medical Records\n";
+        cout << "13. Display Hospital Layout\n";
         cout << "14. Exit\n";
         cout << "=============================================\n";
         cout << "Enter your choice: ";
@@ -560,4 +560,5 @@ int main() {
     }
     
     return 0;
+
 }
